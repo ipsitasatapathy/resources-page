@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.bg {
+    background-image: linear-gradient(to bottom, #000, #05445E);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+.head1 {
+    text-align: center;
+    color: wheat;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    padding-top: 5rem;
+    animation-name: swipe1;
+    animation-duration: 0.9s;
+}
+
+.head2 {
+    text-align: center;
+    color: rgb(122, 165, 53);
+    padding-top: 3rem;
+    font-family: 'Caveat', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    animation: swipe2 2s;
+}
+
+@keyframes swipe1 {
+    from{font-size: 0px;}
+    to{font-size: 30px;}
+}
+
+@keyframes swipe2 {
+    from{font-size: 0px;}
+    to{font-size: 25px;}
+}
+
+
+
