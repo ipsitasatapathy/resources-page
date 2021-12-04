@@ -2,32 +2,25 @@
     margin: 0;
     padding: 0;
 }
-
-.video-bg {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
+.bg {
+    background: linear-gradient(to bottom,#301934, #333F63, #715C8C) ;
+    background-position: center;
+    background-size: cover;
     min-height: 100vh;
-    width: auto;
-    height: auto;
-    z-index: -50;
 }
-
 .head1 {
     text-align: center;
-    color: wheat;
+    color: plum;
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    padding-top: 5rem;
+    font-size: 50px;
+    padding-top: 30px;
     animation-name: swipe1;
     animation-duration: 0.9s;
 }
 
 .head2 {
     text-align: center;
-    color: rgb(122, 165, 53);
-    padding-top: 3rem;
+    color: bisque;
     font-family: 'Caveat', cursive;
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
@@ -38,6 +31,8 @@
 }
 .logo {
     height: 10rem;
+    width: 15rem;
+    float: left;
 }
 
 .menu-bar {
@@ -51,15 +46,15 @@
 }
 .menu-bar li a{
     text-decoration: none;
-    color: wheat;
+    color: plum;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 5px;
-    border-bottom: 1.5px solid white;
+    border-bottom: 1.5px solid plum;
 }
 .menu-bar li a:hover{
-    background-color: teal;
-    color: white;
-    border-bottom: 3px solid teal;
+    background-color: plum;
+    color: black;
+    border-bottom: 3px solid plum;
     padding: 10px 5px 5px 10px;
 }
 
@@ -110,8 +105,8 @@
   
 
   .flip-card-back {
-    background-color: dodgerblue;
-    color: white;
+    background-color: plum;
+    color: black;
     transform: rotateY(180deg);
   }
 
