@@ -68,9 +68,10 @@
 }
 .flip-card {
     background-color: transparent;
-    width: 300px;
-    height: 200px;
+    width: 250px;
+    height: 300px;
     perspective: 1000px;
+    margin-left: 10px;
   }
   
   .flip-card-inner {
@@ -98,8 +99,9 @@
   
  
   .flip-card-front {
-    background-color: #bbb;
+    background-color: #28112c;
     color: black;
+    border: solid white 3px;
   }
   
 
@@ -107,6 +109,22 @@
     background-color: plum;
     color: black;
     transform: rotateY(180deg);
+    border: solid white 3px;
   }
 
+  .name {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 25px;
+      color: wheat;
+  }
+  .id {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: white;
+  }
+  .img {
+    width:200px;
+    height:200px;
+    border-radius: 50rem;
+  }
 
