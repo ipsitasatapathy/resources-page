@@ -106,7 +106,7 @@
   
 
   .flip-card-back {
-    background-image: url('flipcard.jpg');
+    background-image: linear-gradient(rgba(8, 14, 37, 0.6), rgba(88, 26, 139, 0.6)), url('flipcard.jpg');
     transform: rotateY(180deg);
     border: solid rgb(107, 69, 107) 6px;
   }
