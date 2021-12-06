@@ -106,7 +106,7 @@
   
 
   .flip-card-back {
-    background-image: url('/flipcard.jpg');
+    background-image: url('flipcard.jpg');
     transform: rotateY(180deg);
     border: solid rgb(107, 69, 107) 6px;
   }
