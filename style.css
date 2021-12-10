@@ -149,4 +149,8 @@
     height:170px;
     border-radius: 50rem;
   }
-
+div.second-plate{
+  position: relative;
+  left: 300px;
+  bottom: 300px;
+}
